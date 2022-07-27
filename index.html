@@ -12,28 +12,68 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Entech</a>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+      <!-- Section Navbar Start -->
+      <section>
+        <nav class="navbar navbar-expand-lg py-3">
+          <div class="container">
+            <a class="custom-brand" href="#">Entech</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav d-flex justify-content-center w-100">
+                <li class="nav-item me-4 text-third">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-4 text-third">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item me-4 text-third">
+                  <a class="nav-link" href="#">Deals</a>
+                </li>
+                <li class="nav-item me-4 text-third">
+                  <a class="nav-link" href="#">Success</a>
+                </li>
+                <li class="nav-item me-4 text-third">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item text-third">
+                  <a class="nav-link" href="#">Register</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <button class="btn-outlined font-weight-bold" type="submit">Register</button>
+              </form>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </section>
+
+      <!-- Section Navbar End -->
+
+      <!-- Section Hero Start -->
+      
+      <!-- Section Hero End -->
     </header>
     <main></main>
     <script

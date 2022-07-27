@@ -1,0 +1,124 @@
+/*---------- Global ----------*/
+
+:root {
+  --main-color: #289bde;
+  --dark-first: #1d1d1d;
+  --dark-second: #4a4a4a;
+  --dark-third: #777777;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/*---------- Global ----------*/
+
+/*---------- NAVBAR ----------*/
+.custom-brand {
+  color: var(--dark-second);
+  font-weight: 600;
+  font-size: 35px;
+  text-decoration: none;
+}
+/*---------- NAVBAR ----------*/
+
+.text-first {
+  color: #1d1d1d;
+}
+.text-second {
+  color: #4a4a4a;
+}
+.text-third {
+  color: #777777;
+}
+
+/*  BUTTONS */
+
+.btn-main {
+  padding: 13px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: var(--main-color);
+  color: #fff;
+  border: 1px solid transparent;
+  transition: 100ms all ease-in-out;
+}
+.btn-outlined {
+  padding: 13px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #fff;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  transition: 100ms all ease-in-out;
+}
+
+.btn-main:hover {
+  background-color: transparent;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.btn-outlined:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+/* Carousel */
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 29, 29, 0.7);
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.custom-carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-heading {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.carousel-text {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-heading {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .carousel-heading {
+    font-size: 2rem;
+  }
+  .carousel-text {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .carousel-heading {
+    font-size: 1.5rem;
+  }
+  .carousel-text {
+    font-size: 14px;
+  }
+}
