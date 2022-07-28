@@ -10,7 +10,6 @@
 
 body {
   font-family: 'Poppins', sans-serif !important;
-  height: 1000vh;
 }
 
 /*---------- Global ----------*/
@@ -176,5 +175,18 @@ body {
   color: var(--dark-second);
   border: 0;
 }
-
 /*---------- ACCORDION ----------*/
+
+/*---------- FOOTER ----------*/
+footer {
+  background-color: var(--dark-first);
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  background-color: #242424;
+  font-size: 23px;
+}
+
+/*---------- FOOTER ----------*/
