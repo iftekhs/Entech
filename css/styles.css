@@ -16,17 +16,25 @@ body {
 /*---------- Global ----------*/
 
 /*---------- COMMON ----------*/
+
 .text-first {
   color: var(--dark-first);
 }
+
 .text-second {
   color: var(--dark-second);
 }
+
 .text-third {
   color: var(--dark-third);
 }
+
 .text-main {
   color: var(--main-color);
+}
+
+.bg-main {
+  background-color: var(--main-color);
 }
 
 .bg-main-light {
