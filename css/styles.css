@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #289bde;
+  --main-light-color: #f4fafd;
   --dark-first: #1d1d1d;
   --dark-second: #4a4a4a;
   --dark-third: #777777;
@@ -26,6 +27,10 @@ body {
 }
 .text-main {
   color: var(--main-color);
+}
+
+.bg-main-light {
+  background-color: var(--main-light-color);
 }
 
 .fs-18 {
