@@ -9,27 +9,27 @@
 
 body {
   font-family: 'Poppins', sans-serif !important;
+  height: 1000vh;
 }
 
 /*---------- Global ----------*/
 
-/*---------- NAVBAR ----------*/
-.custom-brand {
-  color: var(--dark-second);
-  font-weight: 600;
-  font-size: 35px;
-  text-decoration: none;
-}
-/*---------- NAVBAR ----------*/
-
+/*---------- COMMON ----------*/
 .text-first {
-  color: #1d1d1d;
+  color: var(--dark-first);
 }
 .text-second {
-  color: #4a4a4a;
+  color: var(--dark-second);
 }
 .text-third {
-  color: #777777;
+  color: var(--dark-third);
+}
+.text-main {
+  color: var(--main-color);
+}
+
+.fs-18 {
+  font-size: 18px;
 }
 
 /*  BUTTONS */
@@ -65,7 +65,17 @@ body {
   border: 1px solid transparent;
 }
 
-/* Carousel */
+/*---------- COMMON ----------*/
+
+/*---------- NAVBAR ----------*/
+.custom-brand {
+  color: var(--dark-second);
+  font-size: 35px;
+  text-decoration: none;
+}
+/*---------- NAVBAR ----------*/
+
+/*---------- HERO ----------*/
 
 .carousel-inner {
   overflow: hidden;
@@ -122,3 +132,4 @@ body {
     font-size: 14px;
   }
 }
+/*---------- HERO ----------*/
