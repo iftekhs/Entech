@@ -47,9 +47,6 @@ body {
 /*  BUTTONS */
 
 .btn-main {
-  padding: 13px 30px;
-  border-radius: 5px;
-  font-weight: 600;
   background-color: var(--main-color);
   color: #fff;
   border: 1px solid transparent;
@@ -57,9 +54,6 @@ body {
 }
 
 .btn-outlined {
-  padding: 13px 30px;
-  border-radius: 5px;
-  font-weight: 600;
   background-color: #fff;
   color: var(--main-color);
   border: 1px solid var(--main-color);
@@ -67,9 +61,6 @@ body {
 }
 
 .btn-white {
-  padding: 13px 30px;
-  border-radius: 5px;
-  font-weight: 600;
   background-color: #fff;
   color: var(--main-color);
   border: 1px solid transparent;
@@ -96,48 +87,18 @@ body {
 
 /*---------- COMMON ----------*/
 
-/*---------- NAVBAR ----------*/
-.custom-brand {
-  color: var(--dark-second);
-  font-size: 35px;
-  text-decoration: none;
-}
-/*---------- NAVBAR ----------*/
-
 /*---------- HERO ----------*/
 
-.carousel-inner {
-  overflow: hidden;
+.carousel-item {
+  background-color: #1d1d1d;
 }
 
-.carousel-item::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(29, 29, 29, 0.7);
-  top: 0;
-  left: 0;
-  border-radius: 5px;
-}
-
-.custom-carousel-caption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
+.carousel-item img {
+  opacity: 0.3;
 }
 
 .carousel-heading {
   font-size: 4rem;
-  font-weight: 600;
-}
-
-.carousel-text {
-  font-size: 18px;
-  line-height: 1.8;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -149,32 +110,29 @@ body {
   .carousel-heading {
     font-size: 2rem;
   }
-  .carousel-text {
-    font-size: 16px;
-  }
 }
 @media only screen and (max-width: 768px) {
+  .custom-carousel-caption {
+    width: 80%;
+  }
   .carousel-heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .carousel-text {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .carousel-btn {
+    padding: 8px 20px;
   }
 }
 /*---------- HERO ----------*/
 
-/*---------- CTA ----------*/
-.cta-container {
-  padding: 80px 100px;
-}
-/*---------- CTA ----------*/
-
 /*---------- ACCORDION ----------*/
 .accordion-button:not(.collapsed) {
-  background-color: rgba(40, 155, 222, 10%);
+  background-color: rgba(40, 155, 222, 0.1);
   color: var(--dark-second);
-  border: 0;
 }
+
 /*---------- ACCORDION ----------*/
 
 /*---------- FOOTER ----------*/
@@ -186,7 +144,5 @@ footer {
   width: 40px;
   height: 40px;
   background-color: #242424;
-  font-size: 23px;
 }
-
 /*---------- FOOTER ----------*/
