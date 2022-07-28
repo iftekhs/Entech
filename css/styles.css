@@ -169,3 +169,12 @@ body {
   padding: 80px 100px;
 }
 /*---------- CTA ----------*/
+
+/*---------- ACCORDION ----------*/
+.accordion-button:not(.collapsed) {
+  background-color: rgba(40, 155, 222, 10%);
+  color: var(--dark-second);
+  border: 0;
+}
+
+/*---------- ACCORDION ----------*/
